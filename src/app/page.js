@@ -20,12 +20,27 @@ function Nav() {
   )
 }
 
+function Footer() {
+  return (
+    <>
+      <div className='footer'>
+        <h3>Footer links</h3>
+        <ul className='footer-pages'>
+          <li>Page 1</li>
+          <li>Page 2</li>
+          <li>Page 4</li>
+        </ul>
+      </div>
+    </>
+  )
+}
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Nav />
       <Scene />
+      <Footer />
     </main>
   )
 }
